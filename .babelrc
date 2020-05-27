@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "component/*": "src/components/*",
+          "public/*": "src/public/*",
+          "modules/*": "src/modules/*",
+          "assets/*": "src/assets/*"
+        }
+      }
+    ],
+    "@babel/plugin-transform-runtime"
+  ]
+}
