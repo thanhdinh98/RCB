@@ -26,7 +26,7 @@
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
     "@tinymce/tinymce-react": "^3.6.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "clsx": "^1.1.0",
     "filepond": "^4.13.6",
     "filepond-plugin-image-exif-orientation": "^1.0.8",
